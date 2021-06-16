@@ -6,7 +6,7 @@ Sistema de altas bajas cambios y consultas para Pequeñas y Medianas empresas(py
  
  Para poder usar el sistemas y por tanto poder ejecutar los archivos se requiere de xampp para crear un servidor local y una base de datos en MySQL donde se guardara todo nuestro inventaripo, gracias a estas herramientas podremos visualizar el proyecto.
  
- #Instalacion
+ # Instalacion
  
  Primero debemos crear una carpeta en la ruta de nuestra computadora C:xampp/htdocs/*nombre de la carpeta*, En esta se colocaran todas las carpetas del sistema.
  
@@ -31,7 +31,7 @@ Posteriormente buscaremos el archivo httpd-vhosts.conf que encontraremos en la r
         </Directory>  
 </VirtualHost>
 
-#Creación de la base de datos en MySQL*
+# Creación de la base de datos en MySQL*
 
 Al hacer estos cambios podemos iniciar nuestro servidor Xampp dando "Start" a Apache y a MySQL.
 
@@ -39,7 +39,7 @@ Despues entramos a nuestro navegardor y colocamos en la barra de busqueda "local
 
 Creamos una base de datos nueva para nuestro sistema y despues crearemos una tabla con el nombre con un nombre referido a lo que almacenaremos ahi, definimos los atributos de cada campo o que asignemos a nuestra tabla.
 
-#Archibvos "Includes"
+# Archibvos "Includes"
 Crearemos dos archivos que se llamaran "functions" y "constants" en una nueva carpeta la cual llamermos includes
 
 Dentro del archivo functions vamos a cambiar el link de la función de redirect, solo eliminamos el example.com y colocamos el nombre de la carpeta propia.
@@ -48,23 +48,23 @@ Y en el archivo constants debemos cambiar los datos que vienen por los propios, 
 
 En el archivo functions vamos a cambiar el link de la función de redirect, solo eliminamos el example.com y colocamos el nombre de la carpeta propia.
 
-#Archivos "Public"
+# Archivos "Public"
 En estos archivos se almacena en mayor parte codigo de los procesos o funciones que utiliza el sistema como lo es la mayor parte de procesos como las altas, bajas y modificaciones para los productos.
 
-#Archivos "Templates"
+# Archivos "Templates"
 En estos como el nombre lo indica son plantillas para mostrar la parte del sistem mas grafica o visual en esta carpeta por ejemplo el archivo index y lavadora muestran los productos en las cards y en estas los detalles del producto. Se necesita cambiar parte del codigo de las cards para que se pueda hacer esto ya que necesitamos extraer todos los archivos de la base de datos.
 
-#Software Necesario
+# Software Necesario
 
 1. XAMPP(Apache): Que se ocupara como servidor
 
 2. MySQL: Donde crearemos nuestra base de datos y alojaremos nuestros productos
 
-#Datos de la institución 
+# Datos de la institución 
 Colegio de Estudios Científicos y Tecnológicos del Estado de México
 
    Plantel Xonacatlán Carretera Toluca-Naucalpan
    
- #Autor
+ # Autor
  Alan Cristian Martinez Genaro
  
