@@ -2,7 +2,7 @@
 
 Sistema de altas bajas cambios y consultas para Pequeñas y Medianas empresas(pymes), en el cual se lleva el control total del inventario.
  
- #Descripcion
+ # Descripcion
  
  Para poder usar el sistemas y por tanto poder ejecutar los archivos se requiere de xampp para crear un servidor local y una base de datos en MySQL donde se guardara todo nuestro inventaripo, gracias a estas herramientas podremos visualizar el proyecto.
  
